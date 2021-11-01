@@ -3,7 +3,7 @@
 
 
 
-## Example 1
+## Example 
 
 
 ```js
