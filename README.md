@@ -22,3 +22,6 @@ Coming Soon
 
 * [`Register Account`](https://api.clph.me/users/register)
 * [`Buy APIKEY`](https://wa.me/62882003806038?text=min%20mau%20beli%20apikey)
+
+# Documentation
+* [`Docs`](https://api.clph.me/docs)
