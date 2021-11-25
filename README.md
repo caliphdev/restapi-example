@@ -1,9 +1,4 @@
-# restapi-example
-
-
-
-
-## js-obfuscator
+# js-obfuscator
 
 
 ```js
@@ -20,7 +15,7 @@ console.log(result);
 # Binary
 
 ### encrypt 
-```
+```js
 var axios = require("axios");
 
 var string = `hello world`;
@@ -29,7 +24,7 @@ console.log(result.result);
 ```
 
 ### decrypt 
-```
+```js
 var axios = require("axios");
 
 var string = `1101000 1100101 1101100 1101100 1101111 100000 1110111 1101111 1110010 1101100 1100100`;
@@ -38,9 +33,12 @@ console.log(result.result);
 ```
 
 
-## Rangkum
+# Rangkum
 
-Coming Soon
+  Coming Soon
+
+
+
 
 # Get Apikey
 
@@ -48,4 +46,4 @@ Coming Soon
 * [`Buy APIKEY`](https://wa.me/62882003806038?text=min%20mau%20beli%20apikey)
 
 # Documentation
-* [`Docs`](https://api.clph.me/docs)
+* [`Docs`](https://api.caliph.my.id/docs)
