@@ -17,9 +17,9 @@ console.log(result);
 
 
 
-## Binary
+# Binary
 
-# encrypt 
+### encrypt 
 ```
 var axios = require("axios");
 
@@ -28,7 +28,7 @@ result = (await axios('https://api.caliph.my.id/api/binary/enc?apikey=YOUR-APIKE
 console.log(result.result);
 ```
 
-# decrypt 
+### decrypt 
 ```
 var axios = require("axios");
 
