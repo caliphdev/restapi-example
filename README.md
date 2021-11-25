@@ -10,9 +10,33 @@
 var axios = require("axios");
 
 var code = `console.log('hello world')`;
-result = (await axios('https://api.clph.me/api/javascript-obfuscator?apikey=YOUR-APIKEY', { method: 'POST', data: new URLSearchParams(Object.entries({ code })) })).data;
+result = (await axios('https://api.caliph.my.id/api/javascript-obfuscator?apikey=YOUR-APIKEY', { method: 'POST', data: new URLSearchParams(Object.entries({ code })) })).data;
 console.log(result);
 ```
+
+
+
+
+## Binary
+
+# encrypt 
+```
+var axios = require("axios");
+
+var string = `hello world`;
+result = (await axios('https://api.caliph.my.id/api/binary/enc?apikey=YOUR-APIKEY', { method: 'POST', data: new URLSearchParams(Object.entries({ string })) })).data;
+console.log(result.result);
+```
+
+# decrypt 
+```
+var axios = require("axios");
+
+var string = `1101000 1100101 1101100 1101100 1101111 100000 1110111 1101111 1110010 1101100 1100100`;
+result = (await axios('https://api.caliph.my.id/api/binary/dec?apikey=YOUR-APIKEY', { method: 'POST', data: new URLSearchParams(Object.entries({ string })) })).data;
+console.log(result.result);
+```
+
 
 ## Rangkum
 
